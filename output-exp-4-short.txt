@@ -1,0 +1,31 @@
+**General Insights About Solving Functional Equations:**
+
+1. **I learned the crucial role of initial substitutions, especially setting variables to zero or each other.**  This problem really drove home how finding $f(0)$ can be a cornerstone for the rest of the solution. Similarly, setting $x=y$ led directly to understanding the behavior of $f$ for non-negative inputs. These seem like powerful techniques to try early on in many functional equations.
+
+2. **I recognized that carefully analyzing the domain and range of expressions within the functional equation is essential.** For example, recognizing that $x^2$ covers all non-negative numbers was key to determining $f(t)$ for $t \geq 0$. In general, I need to be more mindful of the possible values that expressions can take on.
+
+3. **I discovered the power of strategic substitutions, especially after gaining partial information.** Once I knew $f(x) = x$ for $x \ge 0$, substituting $(x,y) = (t,-1)$ and $(x,y) = (-1,t)$ for $t>0$ became incredibly useful for exploring the unknown territory of negative inputs. This suggests a general strategy of leveraging partial knowledge to design targeted substitutions.
+
+4. **I realized that exploiting symmetry, or the lack thereof, can be a powerful tool.**  Swapping $x$ and $y$ in the original equation and comparing the result to the original revealed a crucial property: $f(z) = f(-z)$ for $z$ in the range of $xf(y)-yf(x)$. Recognizing and utilizing symmetry is something I'll try to do more consciously. Also, recognizing when an expression is symmetric or anti-symmetric will be something I keep in mind.
+
+5. **I saw firsthand how assuming a specific form of the solution too early can be misleading.**  While guessing solutions is helpful for intuition, I need to be careful not to let those guesses bias my reasoning or make me jump to conclusions. Rigorously deriving the solution is crucial.
+
+6. **I learned that assuming injectivity without proof can be a trap.**  I made a mistake by assuming injectivity prematurely, which led to an incorrect deduction. In the future, I'll be much more cautious about assuming injectivity and will try to prove it first if I need it.
+
+7. **I found that exploring the function's behavior at specific points, like f(-1) or f(1), can be a good strategy.** This helped to guide the solution. Fixing the value of the function at certain points can act as anchors for understanding its overall behavior. I will consider exploring other values like $f(2)$ and analyzing the implications.
+
+8. **I developed a deeper appreciation for the importance of rigorous case analysis.**  Breaking the problem down into cases based on $c = f(-1)$ was effective, but it required very careful consideration of the conditions and implications within each sub-case. I need to make sure my case analyses are truly exhaustive and that the logic within each case is airtight.
+
+9. **I saw how setting a variable to 1 can be useful.** Setting $x=1$ or $y=1$ led to useful simplifications of the original equation.
+
+10. **I realized that the expression $xf(y) - yf(x)$ is an important one.** It appears frequently when working with this functional equation, and understanding when it is zero or nonzero is important. I will consider analyzing when $xf(y) - yf(x) = xy$ is true.
+
+**Insights Specific to This Problem:**
+
+11. **I was surprised to find that assuming $f(0) \neq 0$ quickly led to a contradiction.** This reinforced the importance of exploring even seemingly unlikely scenarios.
+
+12. **I found it interesting how the solutions, $f(x) = x$ and initially thought to be $f(x)=|x|$, related to the value of $c = f(-1)$.**  It was a neat connection between the function's behavior at a single point and its overall form.
+
+13. **I learned that just because a function satisfies some properties of a potential solution, it doesn't mean it is a solution.** In particular, the verification step where $f(x) = |x|$ was initially thought to be a solution was crucial for catching a subtle error.
+
+14. **I realized that the range of $xf(y) - yf(x)$ depends on the form of $f$.** When $f(x) = x$, the range is just $\{0\}$. When $f(x) = |x|$, the range is $\mathbb{R}$.

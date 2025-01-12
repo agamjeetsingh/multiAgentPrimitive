@@ -1,0 +1,210 @@
+Problem 1:
+
+
+Final Answer: 19
+
+
+Problem 2:
+
+
+Final Answer: Solution:
+From the Angle Bisector Theorem, we have $\frac{AX}{XC} = \frac{AB}{BC} = \frac{39}{108} = \frac{13}{36}$.
+Since $AX+XC = AC = 126$, we have $AX = \frac{13}{13+36} \times 126 = \frac{13}{49} \times 126 = \frac{234}{7}$ and $XC = \frac{36}{49} \times 126 = \frac{648}{7}$.
+Since $A, B, X, Y$ are concyclic, $\angle BXY = \angle BAY$.
+Since $BX$ bisects $\angle CBA$, $\angle ABX = \angle XBC$.
+Because $\angle ABX$ subtends arc $AX$ and $\angle AXY$ subtends arc $AY$, and $\angle BXY = \angle BAY$, we have $\angle ABX = \angle BXY$.
+This implies that $\triangle BEX$ is isosceles with $BE = EX$.
+
+Apply Menelaus' Theorem on $\triangle CAE$ with transversal $BXY$. The points of intersection are $B$ on the line $CA$, $E$ on the line $CB$, and $Y$ on the circumcircle.
+The theorem states that $\frac{CB}{BE} \cdot \frac{EX}{XA} \cdot \frac{AY}{YC} = 1$.
+Since $BE = EX$, we have $\frac{CB}{BE} \cdot \frac{BE}{XA} \cdot \frac{AY}{YC} = 1$, which simplifies to $\frac{CB}{XA} \cdot \frac{AY}{YC} = 1$.
+Substituting the known values, we get $\frac{108}{234/7} \cdot \frac{AY}{YC} = 1$, so $\frac{756}{234} \cdot \frac{AY}{YC} = 1$.
+Thus, $\frac{AY}{YC} = \frac{234}{756} = \frac{13}{42}$.
+This means $42 AY = 13 YC$. Since $AY + YC = AC = 126$, we have $YC = 126 - AY$.
+So, $42 AY = 13 (126 - AY) = 1638 - 13 AY$.
+$55 AY = 1638$, which gives $AY = \frac{1638}{55}$.
+
+Since $\angle ABX = \angle BXY$, $AY \parallel BC$.
+Then $\triangle CAE \sim \triangle YAE$, so $\frac{CE}{BE} = \frac{CA}{AY}$.
+Substituting the values, we have $\frac{CE}{BE} = \frac{126}{1638/55} = \frac{126 \times 55}{1638} = \frac{6930}{1638} = \frac{385}{91} = \frac{55}{13}$.
+So, $13 CE = 55 BE$.
+Since $CE = BC - BE = 108 - BE$, we have $13 (108 - BE) = 55 BE$.
+$1404 - 13 BE = 55 BE$.
+$1404 = 68 BE$.
+$BE = \frac{1404}{68} = \frac{351}{17}$.
+The length of the segment $BE$ is $\frac{351}{17}$, where $m=351$ and $n=17$. Since $\text{gcd}(351, 17) = 1$, the integers are coprime.
+$m+n = 351 + 17 = 368$.
+
+Final Answer: The final answer is $\boxed{368}$
+
+
+Problem 3:
+
+
+Final Answer: 180
+
+
+Problem 4:
+
+
+Final Answer: 143
+
+
+Problem 5:
+
+
+Final Answer: 902
+
+
+Problem 6:
+
+
+Final Answer: 3
+
+Problem 7:
+
+
+Final Answer: Countably infinitely
+
+Problem 8:
+
+
+Final Answer: $4046 \times \frac{4046!}{2^{2023} \cdot 2023!}$
+
+Problem 9:
+
+
+Final Answer: 18
+
+Problem 10:
+
+
+Final Answer: 201
+
+
+Problem 1:
+
+
+Final Answer: Final Answer: The final answer is $\boxed{49}$
+
+
+Problem 2:
+
+
+Final Answer: 1459
+
+
+Problem 3:
+
+
+Final Answer: The problem asks for the greatest possible length of segment $CD$, where $D$ is the foot of the perpendicular from $C$ to the line $AB$. We are given $AB = 120$ and the circumradius $R = 100$.
+
+Let the circumcircle of triangle $ABC$ have center $O$. The distance from the center $O$ to the chord $AB$ can be found by considering the right triangle formed by the radius, half the chord length, and the distance from the center to the chord. Let $M$ be the midpoint of $AB$. Then $AM = MB = \frac{120}{2} = 60$. The triangle $OMA$ is a right triangle with hypotenuse $OA = R = 100$ and one leg $AM = 60$. Using the Pythagorean theorem, we have:
+$OM^2 + AM^2 = OA^2$
+$OM^2 + 60^2 = 100^2$
+$OM^2 + 3600 = 10000$
+$OM^2 = 10000 - 3600 = 6400$
+$OM = \sqrt{6400} = 80$
+
+The length of the segment $CD$ is the distance from the point $C$ on the circumcircle to the line $AB$. The maximum and minimum distances from a point on the circle to a line containing a chord occur along the line passing through the center of the circle and perpendicular to the chord. This line intersects the chord at its midpoint $M$.
+
+The maximum distance occurs when $C$ is on the opposite side of $AB$ from the center $O$. In this case, the distance $CD$ is $CM + MD$, and since $CD$ is perpendicular to $AB$, the point $D$ coincides with $M$ for the maximum and minimum distances. The line from the center $O$ perpendicular to $AB$ meets the circle at two points. The distances from these points to the line $AB$ are $OM + R$ and $R - OM$.
+
+The greatest possible length of segment $CD$ is when $C$ is on the circumcircle such that $C$, $M$, and $O$ are collinear, and $C$ is on the opposite side of $AB$ from $O$. In this case, the distance is $OM + OC = 80 + 100 = 180$.
+
+Final Answer: The final answer is $\boxed{180}$
+
+Problem 4:
+
+
+Final Answer: The problem asks for a three-digit number $n$ such that writing any other three-digit number $m$ $10^{2024}$ times in a row and $10^{2024} + 2$ times in a row results in two numbers divisible by $n$.
+
+Let the three-digit number be $m$. The number formed by writing $m$ $k$ times is $m \times (1 + 10^3 + 10^6 + \dots + 10^{3(k-1)}) = m \times \frac{10^{3k} - 1}{10^3 - 1} = m \times \frac{10^{3k} - 1}{999}$.
+
+For the first case, $k = 10^{2024}$. The number is $N_1 = m \times \frac{10^{3 \cdot 10^{2024}} - 1}{999}$. We are given that $n$ divides $N_1$.
+For the second case, $k = 10^{2024} + 2$. The number is $N_2 = m \times \frac{10^{3(10^{2024} + 2)} - 1}{999} = m \times \frac{10^{3 \cdot 10^{2024} + 6} - 1}{999}$. We are given that $n$ divides $N_2$.
+
+Since $n$ divides $N_1$ and $N_2$, $n$ must divide their difference $N_2 - N_1$:
+$N_2 - N_1 = m \times \frac{10^{3 \cdot 10^{2024} + 6} - 1 - (10^{3 \cdot 10^{2024}} - 1)}{999} = m \times \frac{10^{3 \cdot 10^{2024}} (10^6 - 1)}{999}$.
+So, $n$ divides $m \times 10^{3 \cdot 10^{2024}} \times \frac{10^6 - 1}{999}$.
+
+From the condition that $n$ divides $N_1$, we have $n$ divides $m \times \frac{10^{3 \cdot 10^{2024}} - 1}{999}$. This means $999n$ divides $m(10^{3 \cdot 10^{2024}} - 1)$.
+
+The problem states this must hold for any other three-digit number $m$.
+If $n=143$, then $999n = 999 \times 143$.
+We know that $10^6 - 1 = 999 \times 1001 = 999 \times 7 \times 11 \times 13 = 999 \times 143 \times 7$.
+Thus, $999 \times 143$ divides $10^6 - 1$.
+This implies $10^6 \equiv 1 \pmod{999 \times 143}$.
+Since $3 \cdot 10^{2024}$ is a multiple of 6, $10^{3 \cdot 10^{2024}} \equiv 1 \pmod{999 \times 143}$.
+Therefore, $10^{3 \cdot 10^{2024}} - 1$ is divisible by $999 \times 143$.
+So $\frac{10^{3 \cdot 10^{2024}} - 1}{999}$ is divisible by $143$.
+Hence, if $n=143$, $n$ divides $m \times \frac{10^{3 \cdot 10^{2024}} - 1}{999}$ for any other three-digit number $m$.
+
+Final Answer: The final answer is $\boxed{143}$
+
+Problem 5:
+
+
+Final Answer: 902
+
+
+Problem 6:
+
+
+Final Answer: 3
+
+
+Problem 7:
+
+
+Final Answer: AAAAA
+
+
+Problem 8:
+
+
+Final Answer: The problem asks for the number of ways to arrange the first round such that Fred and George do not have to play each other. We can use complementary counting. First, calculate the total number of ways to arrange the first round without any restrictions. Then, calculate the number of arrangements where Fred and George *do* play each other. Subtracting the latter from the former will give the desired result.
+
+Total number of players = 4048.
+In each round, the players are paired into 2024 matches.
+The total number of ways to pair $2n$ players into $n$ pairs is $\frac{(2n)!}{2^n n!}$.
+In this case, $2n = 4048$, so $n = 2024$.
+The total number of ways to arrange the first round is $\frac{4048!}{2^{2024} 2024!}$.
+
+Now, consider the arrangements where Fred and George are paired. If Fred and George are paired, we can treat them as a single unit. The remaining $4048 - 2 = 4046$ players need to be paired into $2023$ matches.
+The number of ways to pair these $4046$ players is $\frac{4046!}{2^{2023} 2023!}$.
+
+The number of ways to arrange the first round such that Fred and George do not play each other is the total number of arrangements minus the number of arrangements where Fred and George do play each other:
+Number of arrangements (Fred and George not together) = Total arrangements - Arrangements (Fred and George together)
+= $\frac{4048!}{2^{2024} 2024!} - \frac{4046!}{2^{2023} 2023!}$
+= $\frac{4048 \times 4047 \times 4046!}{2 \times 2024 \times 2^{2023} \times 2023!} - \frac{4046!}{2^{2023} 2023!}$
+= $\frac{4048 \times 4047}{4048} \frac{4046!}{2^{2023} \times 2023!} - \frac{4046!}{2^{2023} 2023!}$
+= $4047 \times \frac{4046!}{2^{2023} \times 2023!} - 1 \times \frac{4046!}{2^{2023} \times 2023!}$
+= $(4047 - 1) \times \frac{4046!}{2^{2023} \times 2023!}$
+= $4046 \times \frac{4046!}{2^{2023} \times 2023!}$
+
+Final Answer: The final answer is $\boxed{4046 \times \frac{4046!}{2^{2023} 2023!}}$
+
+Problem 9:
+
+
+Final Answer: 18
+
+
+Problem 10:
+
+
+Final Answer: 201
+
+
+Problem 1:
+
+
+Final Answer: 19
+
+Problem 2:
+
+
+Final Answer: 1453
+
+Problem 3:
