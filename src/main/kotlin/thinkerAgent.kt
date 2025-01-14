@@ -32,7 +32,3 @@ If ${"$"}n = 12${"$"} then if ${"$"}a, b${"$"} are coprime to ${"$"}12${"$"} the
 If ${"$"}n = 24${"$"} then if ${"$"}a, b${"$"} are coprime to ${"$"}24${"$"} then we must have ${"$"}a, b \\equiv 1, 5, 7, 11, 13, 17, 19, 23 \\pmod 24${"$"}. Observe that ${"$"}1^1 \\equiv 23^2 \\equiv 1 \\pmod 6${"$"} and ${"$"}5^2 \\equiv 19^2 \\equiv 1 \\pmod 24${"$"} and ${"$"}7^2 \\equiv 17^2 \\equiv 1 \\pmod 24${"$"} and ${"$"}11^2 \\equiv 13^2 \\equiv 1 \\pmod 24${"$"}.
 Therefore, the solutions are ${"$"}n = 2, 3, 4, 6, 8, 12, 24${"$"}.
 """
-
-fun main(){
-    print(thinkerAgentSystemPrompt)
-}
