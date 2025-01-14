@@ -5,7 +5,7 @@ import kotlinx.coroutines.runBlocking
 suspend fun main(){
     val file = File("input/AIMOpublic.txt")
     val fileContent = file.readLines()
-    val file2 = File("output/answers-AIMOpublic-mathLMv2-max3.txt")
+    val file2 = File("output/examples/answers-AIMOpublic-mathLMv2-max3.txt")
     var i = 0
     while (2*i < fileContent.size){
         file2.appendText("Problem ${i+1}:\n")
@@ -21,7 +21,7 @@ suspend fun main(){
 suspend fun mainOld1(){
     val file = File("input/AIMOpublic.txt")
     val fileContent = file.readLines()
-    val file2 = File("output/answers-AIMOpublic.txt")
+    val file2 = File("output/examples/answers-AIMOpublic.txt")
     var i = 6
     while (2*i < fileContent.size){
         file2.appendText("Problem ${i+1}:\n")
@@ -56,7 +56,7 @@ fun <T> findDuplicate(list: List<T>): T? {
 }
 
 fun mainOld2() {
-    val answersFile = File("output/answers-v2.txt")
+    val answersFile = File("output/examples/answers-v2.txt")
     val dataFile = File("input/livebench_data.json")
     val jsonString = dataFile.readText()
 

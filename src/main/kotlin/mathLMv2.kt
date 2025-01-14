@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter
 
 suspend fun runMathLM2(problemStatement: String, verbose: Boolean = false, maxIterations: Int = 1): String? {
     var finalOutput: String? = null
-    val outputFile = File("output/output-exp-7.txt")
+    val outputFile = File("output/examples/output-exp-7.txt")
     val shouldWeStop = createShouldWeStopTool()
     val totalSummary = mutableListOf<String?>()
 
